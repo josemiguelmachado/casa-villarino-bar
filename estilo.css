@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+margin: 2%;
+background-image: url("imagens/fundo.png");
+background-position: center;
+}
+
+#principal{
+width:95%;
+max-width: 1200px;
+height:auto;
+margin: auto;
+padding: 5%;
+box-sizing: border-box;
+border:2px solid white;
+}
+
+#logo{
+width:100%;
+max-width: 730px;
+margin: 0 auto 5%;
+}
+
+#logo img{
+width:100%;
+max-width: 730px;
+}
+
+#links{}
+
+.link{
+width: 100%;
+max-width: 600px;
+margin:4% auto;
+padding:2%;
+box-sizing: border-box;
+border:2px solid white;
+display: block;
+font-family:Times, serif;
+font-size: 40px;
+text-decoration: none;
+text-align: center;
+color:white;
+background-color:#fff50;
+}
+
+#rodape{}
+
