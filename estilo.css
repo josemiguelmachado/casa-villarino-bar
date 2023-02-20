@@ -165,9 +165,7 @@ background-color:y ellow;/*---TROCAR DEPOIS----*/
       color: white;
       }
 
-        #local img{
-        margin-left: 5%;
-        float: right;
+        #local img{display: none;
         }
 
         #local a{
