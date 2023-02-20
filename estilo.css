@@ -122,6 +122,14 @@ background-color:y ellow;/*---TROCAR DEPOIS----*/
         }
 
 @media screen and (min-width:1px) and (max-width:768px){
+
+     .menu a{
+      width: 100%;
+      max-width: 600px;
+      margin:0 auto 8%;
+      padding:3%;
+	  }
+	
 	
 #rodape{
 width:100%;
