@@ -29,8 +29,8 @@ background-color: r ed;
 
       #logo img{
       width:25%;
-	  margin:1%;
-	  padding-right: 2%;
+      margin:1%;
+      padding-right: 2%;
       max-width: 730px;
       }
 
@@ -54,7 +54,7 @@ background-color: o range;
 	  list-style: none;
       }
 
-      .menu a{
+      .menu ul li a{
       width: 100%;
       max-width: 600px;
       margin:0 auto 4%;
