@@ -89,20 +89,20 @@ background-color:y ellow;/*---TROCAR DEPOIS----*/
 }
 
       #redes{
-	  width: 40%;
-	  max-width: 350px;
-	  padding:2%;
-	  box-sizing: border-box;
-	  display: flex;
-	  justify-content: space-around;
+      width: 40%;
+      max-width: 350px;
+      padding:2%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-around;
       background: g reen;/*---TROCAR DEPOIS----*/
       }
 
       #local{
-	  width:60%;
+      width:60%;
       max-width:350px;
-	  padding: 2%;
-	  box-sizing: border-box;
+      padding: 2%;
+      box-sizing: border-box;
       text-align: right;
       background: b lue;/*---TROCAR DEPOIS----*/
       color: white;
@@ -122,8 +122,9 @@ background-color:y ellow;/*---TROCAR DEPOIS----*/
         color:white;
         }
 
-@media screen and (min-width:1px) and (max-width:768px){
+/*----INÍCIO DO CÓDIGO PARA DISPOSITIVOS MÓVEIS----*/
 
+@media screen and (min-width:1px) and (max-width:768px){
 	
 #topo{
 width:100%;
@@ -157,20 +158,20 @@ background-color:y ellow;/*---TROCAR DEPOIS----*/
 }
 
       #redes{
-	  width: 100%;
-	  margin: auto;
-	  padding:2%;
-	  box-sizing: border-box;
-	  display: flex;
-	  justify-content:space-around;
+      width: 100%;
+      margin: auto;
+      padding:2%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content:space-around;
       background: g reen;/*---TROCAR DEPOIS----*/
       }
 
       #local{
-	  width:100%;
+      width:100%;
       margin: 2.5% auto;
-	  padding: 2%;
-	  box-sizing: border-box;
+      padding: 2%;
+      box-sizing: border-box;
       text-align: right;
       background: b lue;/*---TROCAR DEPOIS----*/
       color: white;
