@@ -34,7 +34,10 @@ background-color: r ed;
       max-width: 730px;
       }
 
-	  #logo img:first-child{border-right: 2px solid white; padding-right: 5%;}
+	  #logo img:first-child{
+	  border-right: 2px solid white;
+          padding-right: 5%;
+          }
 
 #principal{
 width:100%;
@@ -71,7 +74,7 @@ background-color: o range;
       background-color:transparent;
       }
 
-      .menu a:hover{background-color:#ffffff30;}
+      .menu ul li a:hover{background-color:#ffffff30;}
 
 #rodape{
 width:100%;
