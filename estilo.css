@@ -66,6 +66,7 @@ background-color: o range;
       font-size: 40px;
       text-decoration: none;
       text-align: center;
+      transition: 0.3s;
       color:white;
       background-color:transparent;
       }
