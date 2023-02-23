@@ -3,8 +3,9 @@
 
 body{
 margin: 5%;
-background-image: url("imagens/fundo.png");
 background-position: center;
+background-image: url("imagens/fundo.png");
+background-color: #8e2f2f;
 }
 
 #topo{
@@ -27,14 +28,16 @@ background-color: r ed;
       justify-content:space-around;
       }
 
-      #logo img{
-      width:25%;
+      #logo a{
+      width:30%;
       margin:1%;
       padding-right: 2%;
       max-width: 730px;
       }
 
-	  #logo img:first-child{
+	  #logo a img{width: 100%;}
+
+	  #logo a:first-child{
 	  border-right: 2px solid white;
           padding-right: 5%;
           }
@@ -75,6 +78,31 @@ background-color: o range;
       }
 
       .menu li a:hover{background-color:#ffffff30;}
+
+	.conteudo{
+	padding: 2%;
+	font-family: Verdana, Sans-serif;
+	font-size: 20px;
+	color:#252525;
+	background-color:#ffffff70;
+	}
+
+		.conteudo h1{
+		font-family:Times, serif;
+      	font-size: 40px;
+		}
+
+		.conteudo img{width: 100%;}
+		
+		.conteudo figure{
+		width: 80%;
+		margin: auto;
+		}
+
+		.conteudo figure figcaption{
+		font-style: italic;
+		font-size: 12px;
+		}
 
 #rodape{
 width:100%;
@@ -191,7 +219,4 @@ background-color:y ellow;/*---TROCAR DEPOIS----*/
         text-align: center;
         color:white;
         }
-}/*Fim da quebra*/
-
-
-
+}/*----FIM DOS DISPOSITIVOS MÓVEIS----*/
