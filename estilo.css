@@ -89,7 +89,8 @@ background-color: o range;
 
 		.conteudo h1{
 		font-family:Times, serif;
-         	font-size: 40px;
+      	font-size: 40px;
+		color:#252525;
 		}
 
 		.conteudo img{width: 100%;}
@@ -175,6 +176,13 @@ box-sizing: border-box;
       padding:3%;
       transition: 0.3s;
       }
+	
+	.conteudo h1{
+	font-family:Times, serif;
+    font-size: 35px;
+	text-align: center;
+	color:#252525;
+	}
 	
 	
 #rodape{
