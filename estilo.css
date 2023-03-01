@@ -8,6 +8,10 @@ background-image: url("imagens/fundo.png");
 background-color: #8e2f2f;
 }
 
+hr{
+border:2px solid white;
+}
+
 #topo{
 width:100%;
 max-width: 1200px;
