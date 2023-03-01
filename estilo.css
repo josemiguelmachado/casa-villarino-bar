@@ -39,7 +39,7 @@ background-color: r ed;
 
 	  #logo a:first-child{
 	  border-right: 2px solid white;
-      padding-right: 5%;
+          padding-right: 5%;
           }
 
 #principal{
@@ -89,7 +89,7 @@ background-color: o range;
 
 		.conteudo h1{
 		font-family:Times, serif;
-      	font-size: 40px;
+          	font-size: 40px;
 		color:#252525;
 		}
 
@@ -185,7 +185,7 @@ padding: 5% 2% 2.5% 2%;
 	
 	.conteudo h1{
 	font-family:Times, serif;
-    font-size: 35px;
+        font-size: 35px;
 	text-align: center;
 	color:#252525;
 	}
