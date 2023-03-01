@@ -9,9 +9,7 @@ background-image: url("imagens/fundo.png");
 background-color: #8e2f2f;
 }
 
-hr{
-border:1px solid white;
-}
+hr{border:1px solid white;}
 
 #topo{
 width:100%;
