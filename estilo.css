@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 body{
 margin: 5%;
 background-position: center;
@@ -42,8 +41,8 @@ background-color: r ed;
 
 	  #logo a:first-child{
 	  border-right: 2px solid white;
-          padding-right: 5%;
-          }
+      padding-right: 5%;
+      }
 
 #principal{
 width:100%;
@@ -66,7 +65,7 @@ background-color: o range;
       .menu li a{
       width: 100%;
       max-width: 600px;
-      margin: 0 auto 4%;
+      margin:0 auto 4%;
       padding:2%;
       box-sizing: border-box;
       border:2px solid white;
@@ -84,15 +83,51 @@ background-color: o range;
 
 	.conteudo{
 	padding: 2%;
-	font-family: Verdana, Sans-serif;
+	font-family: times, serif;
 	font-size: 20px;
 	color:#252525;
-	background-color:#ffffff70;
+	background-color:#ffffff90;
+	}
+
+	.conteudo{
+	padding: 2%;
+	font-size: 40px;
+	color:#252525;
+	background-color:#ffffff90;
 	}
 
 		.conteudo h1{
 		font-family:Times, serif;
-          	font-size: 40px;
+        font-size: 50px;
+		text-align: center;
+		color:#252525;
+		}
+
+		.conteudo h2{
+		margin: 1em 0 0;
+		font-family:Times, serif;
+        font-size: 30px;
+		color:#252525;
+		}
+
+		.conteudo h3{
+		margin: 1em 0 0;
+		font-family:Times, serif;
+        font-size: 20px;
+		color:#252525;
+		}
+
+		.conteudo h4{
+		margin: 1em 0 0;
+		font-family:Times, serif;
+        font-size: 18px;
+		text-align:justify;
+		color:#252525;
+		}
+
+		.conteudo p{
+		margin: 0;
+        font-size: 16px;
 		color:#252525;
 		}
 
@@ -110,6 +145,35 @@ background-color: o range;
 		font-style: italic;
 		font-size: 12px;
 		}
+
+	.conteudo a{
+	width: 100%;
+	max-width: 600px;
+	margin:0 auto 4%;
+	padding:2%;
+	box-sizing: border-box;
+	border:2px solid white;
+	display: block;
+	font-family:Times, serif;
+	font-size: 40px;
+	text-decoration: none;
+	text-align: center;
+	transition: 0.3s;
+	color:white;
+	background-color:transparent;
+	}
+
+	.modal img{width:100%;}
+
+	#valores{width:100%;}
+
+.conteudo .aviso{
+margin: 5%;
+text-align:center;
+font-weight: 700;
+font-style: italic;
+color:white;
+}
 
 #rodape{
 width:100%;
@@ -131,8 +195,6 @@ background-color:y ellow;/*---TROCAR DEPOIS----*/
       max-width: 350px;
       padding:2%;
       box-sizing: border-box;
-      display: flex;
-      justify-content: space-around;
       background: g reen;/*---TROCAR DEPOIS----*/
       }
 
@@ -188,7 +250,7 @@ padding: 5% 2% 2.5% 2%;
 	
 	.conteudo h1{
 	font-family:Times, serif;
-        font-size: 35px;
+    font-size: 35px;
 	text-align: center;
 	color:#252525;
 	}
@@ -213,8 +275,6 @@ background-color:y ellow;/*---TROCAR DEPOIS----*/
       margin: auto;
       padding:2%;
       box-sizing: border-box;
-      display: flex;
-      justify-content:space-around;
       background: g reen;/*---TROCAR DEPOIS----*/
       }
 
@@ -239,5 +299,22 @@ background-color:y ellow;/*---TROCAR DEPOIS----*/
         text-align: center;
         color:white;
         }
-	
 }/*----FIM DOS DISPOSITIVOS MÓVEIS----*/
+
+/*-----------CSS DO JQUERY-----------*/
+.modal a.close-modal[class*="icon-"] {
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0;
+  background: #900;
+  border: 2px solid #fff;
+  -moz-box-shadow:    1px 1px 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  box-shadow:         1px 1px 5px rgba(0,0,0,0.5);
+}
