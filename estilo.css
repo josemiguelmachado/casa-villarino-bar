@@ -62,8 +62,8 @@ border-left:2px solid white;
       #menu ul{
       margin: 0;
       padding: 0;
-	  display:flex;
-	  justify-content:space-between;
+      display:flex;
+      justify-content:space-between;
       list-style: none;
       }
 
